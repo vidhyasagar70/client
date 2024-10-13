@@ -1,0 +1,36 @@
+/* Home.css */
+
+/* Container styles */
+.home-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f8ff; /* Light blue background */
+    min-height: 100vh; /* Full height */
+  }
+  
+  /* Header styles */
+  .home-header {
+    font-size: 2.5rem;
+    color: #2c3e50; /* Dark blue color for header */
+    margin-bottom: 20px;
+  }
+  
+  /* Paragraph styles */
+  .home-paragraph {
+    font-size: 1.2rem;
+    color: #34495e; /* Darker gray for paragraph */
+    margin-bottom: 30px;
+  }
+  
+  /* Link styles */
+  .home-link {
+    font-size: 1.1rem;
+    color: #3498db; /* Blue color for links */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Space between links */
+  }
+  
+  .home-link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

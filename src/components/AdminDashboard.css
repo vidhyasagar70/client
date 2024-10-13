@@ -1,0 +1,53 @@
+/* AdminDashboard.css */
+
+/* Container styles */
+.admin-dashboard-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Header styles */
+  .admin-dashboard-header {
+    font-size: 2rem;
+    color: #4caf50; /* Green color for header */
+    margin-bottom: 20px;
+  }
+  
+  /* No users text styles */
+  .no-users-text {
+    font-size: 1.2rem;
+    color: #666; /* Light gray for text */
+  }
+  
+  /* Table styles */
+  .admin-dashboard-table {
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%; /* Set the width of the table */
+  }
+  
+  /* Table header styles */
+  .table-header {
+    background-color: #4caf50; /* Header background color */
+    color: white; /* Text color for header */
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Table cell styles */
+  .table-cell {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333; /* Dark gray text for cells */
+  }
+  
+  /* Image styles */
+  .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Circular images */
+  }
+  
