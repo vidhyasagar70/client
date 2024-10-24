@@ -50,4 +50,15 @@
     height: 100px;
     border-radius: 50%; /* Circular images */
   }
-  
+  /* AdminDashboard.css */
+
+/* Search input styles */
+.search-input {
+  padding: 10px;
+  margin-bottom: 20px; /* Space below the search input */
+  width: 100%; /* Full width */
+  max-width: 400px; /* Max width for better appearance */
+  border: 1px solid #cfd8dc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem; /* Font size */
+}

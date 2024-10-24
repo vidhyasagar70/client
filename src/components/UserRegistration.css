@@ -40,3 +40,134 @@
 .registration-button:hover {
   background-color: #388e3c; /* Darker green on hover */
 }
+
+/* User list container styles */
+.user-list {
+  margin-top: 30px; /* Space above the user list */
+  background-color: #ffffff; /* White background for contrast */
+  padding: 20px; /* Padding for better spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* User details styles */
+.user-details {
+  border: 1px solid #cfd8dc; /* Light border */
+  padding: 15px; /* Padding inside user details */
+  margin-bottom: 15px; /* Space between user details */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background for user details */
+}
+
+/* User detail paragraph styles */
+.user-details p {
+  margin: 5px 0; /* Space between user detail paragraphs */
+  font-size: 1rem; /* Font size for user details */
+  color: #333; /* Darker text color for readability */
+}
+
+/* Edit and Remove button styles */
+.user-details button {
+  margin-top: 10px; /* Space above buttons */
+  padding: 8px 12px; /* Button padding */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Hover effect for edit/remove buttons */
+.user-details button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+/* UserRegistration.css */
+
+/* Container styles */
+.registration-container {
+  text-align: center;
+  padding: 50px;
+  background-color: #e8f5e9; /* Light green background */
+  min-height: 100vh; /* Full height */
+}
+
+/* Header styles */
+.registration-header {
+  font-size: 2.5rem;
+  color: #2e7d32; /* Dark green color for header */
+  margin-bottom: 20px;
+}
+
+/* Input field styles */
+.registration-input {
+  display: block;
+  margin: 15px auto; /* Center input fields */
+  padding: 10px;
+  width: 60%; /* Width of the input fields */
+  border: 1px solid #cfd8dc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 1rem;
+}
+
+/* Button styles */
+.registration-button {
+  padding: 10px 20px;
+  background-color: #2e7d32; /* Dark green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.registration-button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+}
+
+/* User list container styles */
+.user-list {
+  margin-top: 30px; /* Space above the user list */
+  background-color: #ffffff; /* White background for contrast */
+  padding: 20px; /* Padding for better spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* User details styles */
+.user-details {
+  border: 1px solid #cfd8dc; /* Light border */
+  padding: 15px; /* Padding inside user details */
+  margin-bottom: 15px; /* Space between user details */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background for user details */
+}
+
+/* User detail paragraph styles */
+.user-details p {
+  margin: 5px 0; /* Space between user detail paragraphs */
+  font-size: 1rem; /* Font size for user details */
+  color: #333; /* Darker text color for readability */
+}
+
+/* Edit and Remove button styles */
+.user-details button {
+  margin-top: 10px; /* Space above buttons */
+  padding: 8px 12px; /* Button padding */
+  border: none; /* Remove default border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white; /* White text */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+/* Additional margin between buttons */
+.user-details button:not(:last-child) {
+  margin-right: 10px; /* Margin right for spacing between buttons */
+}
+
+/* Hover effect for edit/remove buttons */
+.user-details button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
